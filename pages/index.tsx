@@ -77,17 +77,17 @@ export default function Home() {
                 </li>
                 <li className="nav-item">
                   <a className="nav-link get-link" href="#aboutus">
-                    About us
+                    About Us
                   </a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link get-link" href="#howitworks">
-                    How bridge works
+                    How Bridge Works
                   </a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-get-btn" href="#">
-                    Make transfer <i className="fa-light fa-shuffle"></i>
+                    Make Transfer <i className="fa-light fa-shuffle"></i>
                   </a>
                 </li>
               </ul>
@@ -107,7 +107,7 @@ export default function Home() {
                   Communication
                 </h1>
                 <a href="#features" className="btn-transparent get-link">
-                  Learn more <i className="fa-light fa-arrow-right"></i>
+                  Learn More <i className="fa-light fa-arrow-right"></i>
                 </a>
               </div>
               <div className="col-12 col-lg-7 order-0 order-lg-1 d-flex">
@@ -173,7 +173,7 @@ export default function Home() {
                 <div className="media features-block">
                   <img src="/img/icon/features/3.svg" className="icon-features" draggable="false" alt="Low fees" />
                   <div className="media-body">
-                    <h4 className="mt-0">Low fees</h4>
+                    <h4 className="mt-0">Low Fees</h4>
                     <p>
                       There are many variations of passages of Lorem Ipsum available, but the majority have suffered
                       alteration in some form, by injected. Contrary to popular belief, Lorem Ipsum is not simply.
@@ -241,7 +241,7 @@ export default function Home() {
                   </li>
                   <li className="roadmap-card">
                     <div className="roadmap-timestamp">
-                      <span className="name-timeline">Low fees</span>
+                      <span className="name-timeline">Low Fees</span>
                       <span className="status-timeline">Next</span>
                     </div>
                     <div className="datestamp">
@@ -667,7 +667,7 @@ export default function Home() {
                     <a href="#">Roadmap</a>
                   </li>
                   <li>
-                    <a href="#">About us</a>
+                    <a href="#">About Us</a>
                   </li>
                 </ul>
               </div>
@@ -721,6 +721,7 @@ export default function Home() {
                           <div className="controls">
                             <textarea
                               id="message"
+                              rows={5}
                               placeholder="Write your message.."
                               className="form-control"
                             ></textarea>
@@ -728,7 +729,7 @@ export default function Home() {
                         </div>
 
                         <button type="submit" id="submit" className="btn btn-effect">
-                          <i className="fa-light fa-paper-plane"></i> Send message
+                          <i className="fa-light fa-paper-plane"></i> Send Message
                         </button>
                         <div className="clearfix"></div>
                       </form>
