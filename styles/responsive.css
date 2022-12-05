@@ -1,0 +1,412 @@
+@media screen and (max-width: 320px) {
+  .header__title {
+    font-size: 2rem !important;
+  }
+  .img-home {
+    width: 270px !important;
+  }
+  .circle-item {
+    height: 250px !important;
+    width: 250px !important;
+    top: 53% !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* 5 - Supported Tokens and Blockchains */
+
+  .tokens-list .col-6:nth-child(1),
+  .blockchains-list .col-6:nth-child(1) {
+    padding-right: 10px;
+  }
+
+  .tokens-list .col-6:nth-child(2),
+  .blockchains-list .col-6:nth-child(2) {
+    padding-left: 10px;
+  }
+
+  .tokens-list .col-6:nth-child(3),
+  .blockchains-list .col-6:nth-child(3) {
+    padding-right: 10px;
+  }
+
+  .tokens-list .col-6:nth-child(4),
+  .blockchains-list .col-6:nth-child(4) {
+    padding-left: 10px;
+  }
+
+  .tokens-list .col-6:nth-child(5),
+  .blockchains-list .col-6:nth-child(5) {
+    padding-right: 10px;
+  }
+
+  .tokens-list .col-6:nth-child(6),
+  .blockchains-list .col-6:nth-child(6) {
+    padding-left: 10px;
+  }
+
+  .token-title,
+  .blockchain-title {
+    font-size: 1.125rem;
+  }
+
+  /* 8 - Footer */
+
+  .title-link-footer {
+    margin-bottom: 5px;
+  }
+  .link-footer {
+    margin-bottom: 20px;
+  }
+  footer .copyright-text {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* 1 - Key Features */
+
+  .features-block {
+    display: flex;
+    align-items: center !important;
+    flex-direction: column;
+  }
+  .features-block .media-body h4 {
+    text-align: center;
+  }
+  /* 3 - About Us */
+
+  .aboutus .title {
+    text-align: center;
+  }
+
+  .aboutus .bottom-line {
+    margin-left: auto;
+  }
+  .about-text {
+    margin-bottom: 35px;
+  }
+  .img-about {
+    width: 100% !important;
+  }
+
+  /* 5 - Supported Tokens and Blockchains */
+
+  .token-logo img,
+  .blockchain-logo img {
+    width: 60px;
+  }
+
+  /* 6 - How Bridge Works */
+
+  .illustration-bridge {
+    max-width: 340px;
+    margin-bottom: 0px;
+  }
+
+  .text-bridgeworks {
+    margin-bottom: 40px;
+  }
+
+  /* 8 - Footer */
+
+  footer {
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
+  .link-footer li > a {
+    line-height: 230%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .title {
+    font-size: 1.625rem;
+    line-height: 140%;
+  }
+
+  /* Nav */
+
+  .navbar-brand img {
+    width: 170px;
+  }
+
+  .logo-nav {
+    display: none !important;
+  }
+
+  .logo-mobile {
+    display: block;
+  }
+
+  .blurred-nav-fixed {
+    top: 0;
+    border: none;
+    padding: 0px;
+    background: none;
+    box-shadow: none;
+    backdrop-filter: initial;
+  }
+
+  .mobile-nav {
+    position: fixed;
+    border-width: 0 0 1px;
+    padding: 7px 15px;
+    background: var(--white);
+    -webkit-box-shadow: 0px 0px 64px 0px rgb(57 64 97 / 5%);
+    -moz-box-shadow: 0px 0px 64px 0px rgba(57, 64, 97, 0.05);
+    box-shadow: 0px 0px 64px 0px rgb(57 64 97 / 5%);
+  }
+
+  .mobile-nav .nav-item .active {
+    color: var(--blue);
+  }
+
+  .mobile-nav .navbar-nav li a {
+    color: #4a657e;
+  }
+
+  .mobile-nav .nav-get-btn {
+    background: var(--blue);
+    color: var(--white) !important;
+  }
+
+  .mobile-nav .navbar-nav {
+    padding: 15px;
+  }
+
+  .mobile-nav .navbar-nav li {
+    padding: 7px;
+  }
+
+  .navbar-toggler {
+    padding: 0 !important;
+  }
+
+  /* Header */
+
+  header {
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 70px;
+  }
+
+  header .container,
+  header .row {
+    height: auto;
+  }
+
+  .img-home {
+    width: 320px;
+  }
+
+  .header__title {
+    font-size: 2.375rem;
+    line-height: 120%;
+    margin-bottom: 30px;
+  }
+
+  .circle-item {
+    height: 320px;
+    width: 320px;
+    top: 52%;
+  }
+
+  header .btn-transparent {
+    display: inline-block;
+  }
+
+  /* 1 - Key Features */
+
+  .features {
+    margin-bottom: -20px;
+  }
+
+  .features-block {
+    padding: 25px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+  }
+
+  .features-block {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .features-block .icon-features {
+    width: 65px;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  /* 2 - Roadmap */
+
+  .roadmap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .roadmap-card .datestamp,
+  .roadmap-card.complete .datestamp {
+    border: none;
+  }
+
+  .roadmap-card {
+    width: 90%;
+    border-left: 3px solid var(--light);
+    min-height: 150px;
+  }
+
+  .roadmap-card.complete {
+    width: 90%;
+    border-left: 3px solid var(--hover);
+  }
+
+  .name-timeline {
+    margin-top: 1px;
+    text-align: left;
+  }
+
+  .roadmap-timestamp {
+    padding: 0px 25px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 5px;
+  }
+
+  .roadmap-card .datestamp h4,
+  .roadmap-card .datestamp p {
+    text-align: left;
+  }
+
+  .roadmap-card .datestamp:before {
+    display: none;
+  }
+
+  .roadmap-card:before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: var(--fa-font-regular);
+    content: "\f04b";
+    width: 25px;
+    height: 25px;
+    color: var(--hover);
+    background-color: var(--light);
+    border-radius: 30px;
+    position: absolute;
+    font-size: 0.8125rem;
+    margin-top: -2px;
+    margin-left: -15px;
+    padding-left: 3px;
+    border: 2px solid #ffffff;
+    box-shadow: 0px 3px 5px rgba(75, 105, 139, 0.15);
+  }
+
+  .roadmap-card.complete:before {
+    font: var(--fa-font-solid);
+    content: "\f00c";
+    padding-left: 0px;
+    background-color: var(--hover);
+    color: var(--white);
+    font-size: 0.8125rem;
+  }
+
+  .status-timeline {
+    margin-bottom: 0px;
+  }
+
+  .roadmap-card .datestamp h4 {
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 0.875rem;
+  }
+
+  .roadmap-card .datestamp {
+    padding: 0px 0px 0px 25px;
+  }
+
+  /* 3 - About Us */
+
+  .aboutus .title {
+    text-align: center;
+  }
+
+  .aboutus .bottom-line {
+    margin-left: auto;
+  }
+  .about-text {
+    margin-bottom: 35px;
+  }
+  .img-about {
+    width: 400px;
+  }
+
+  /* 5 - Supported Tokens and Blockchains */
+
+  .blockchain-title {
+    margin-top: 35px;
+  }
+  .token-logo,
+  .blockchain-logo {
+    height: 130px;
+    margin-bottom: 15px;
+  }
+
+  /* 7 - Having Any Questions? */
+
+  .icon-chat-questions {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .title-questions {
+    text-align: center;
+    font-size: 1.3125rem;
+    line-height: 140%;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .title-questions p {
+    line-height: 150%;
+    margin-top: 10px;
+  }
+
+  .btn-questions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .title-link-footer,
+  .link-footer {
+    text-align: center;
+  }
+
+  /* SVG BLOCK */
+
+  .svg-one-block {
+    display: none;
+  }
+
+  .svg-two-block {
+    opacity: 0.35;
+  }
+}
