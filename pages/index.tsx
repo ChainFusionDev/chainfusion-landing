@@ -86,7 +86,7 @@ export default function Home() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-get-btn" href="#">
+                  <a className="nav-get-btn" href="https://app.chainfusion.org">
                     Make Transfer <i className="fa-light fa-shuffle"></i>
                   </a>
                 </li>
@@ -599,7 +599,7 @@ export default function Home() {
                 <p className="copyright-text">Copyright ChainFusion 2022, All Right Reserved</p>
                 <ul className="social-footer">
                   <li>
-                    <a href="#" target="_blank">
+                    <a href="https://twitter.com/chain_fusion" target="_blank">
                       <img src="/img/icon/social/twitter.svg" />
                     </a>
                   </li>
@@ -614,7 +614,7 @@ export default function Home() {
                     </a>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <a href="https://www.linkedin.com/company/chainfusion" target="_blank">
                       <img src="/img/icon/social/linkedin.svg" />
                     </a>
                   </li>
@@ -624,16 +624,16 @@ export default function Home() {
                 <div className="title-link-footer">App</div>
                 <ul className="link-footer">
                   <li>
-                    <a href="#">Bridge</a>
+                    <a href="https://app.chainfusion.org">Bridge</a>
                   </li>
                   <li>
-                    <a href="#">Stake</a>
+                    <a href="https://app.chainfusion.org/staking">Stake</a>
                   </li>
                   <li>
-                    <a href="#">Slash</a>
+                    <a href="https://app.chainfusion.org/slashing">Slash</a>
                   </li>
                   <li>
-                    <a href="#">Liquidity</a>
+                    <a href="https://app.chainfusion.org/liquidity">Liquidity</a>
                   </li>
                 </ul>
               </div>
@@ -641,16 +641,16 @@ export default function Home() {
                 <div className="title-link-footer">Developers</div>
                 <ul className="link-footer">
                   <li>
-                    <a href="#">Documentation</a>
+                    <a href="https://docs.chainfusion.org">Documentation</a>
                   </li>
                   <li>
-                    <a href="#">GitLab</a>
+                    <a href="https://gitlab.com/chainfusion">GitLab</a>
                   </li>
                   <li>
-                    <a href="#">Explorer</a>
+                    <a href="https://explorer.chainfusion.org">Explorer</a>
                   </li>
                   <li>
-                    <a href="#">Api</a>
+                    <a href="/">&nbsp;</a>
                   </li>
                 </ul>
               </div>
@@ -658,16 +658,16 @@ export default function Home() {
                 <div className="title-link-footer">Pages</div>
                 <ul className="link-footer">
                   <li>
-                    <a href="#">Home</a>
+                    <a className="get-link" href="#home">Home</a>
                   </li>
                   <li>
-                    <a href="#">Features</a>
+                    <a className="get-link" href="#features">Features</a>
                   </li>
                   <li>
-                    <a href="#">Roadmap</a>
+                    <a className="get-link" href="#roadmap">Roadmap</a>
                   </li>
                   <li>
-                    <a href="#">About Us</a>
+                    <a className="get-link" href="#aboutus">About Us</a>
                   </li>
                 </ul>
               </div>
