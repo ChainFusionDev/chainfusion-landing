@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css';
+import '../styles/fonts.css';
 import '../styles/globals.css';
 import '../styles/responsive.css';
 import '../styles/fontawesome.css';
