@@ -22,7 +22,7 @@ export default function Home() {
         <link rel="icon" href="/img/favicon.svg" sizes="any" type="image/svg+xml" />
       </Head>
 
-      <div className="page-loader">
+      {/* <div className="page-loader">
         <div id="chainload-loader" className="center-loader">
           <img className="logo-loader center-loader" src="/img/icon-load.svg" />
           <svg id="chainload" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129.78 150.37">
@@ -38,7 +38,7 @@ export default function Home() {
             />
           </svg>
         </div>
-      </div>
+      </div> */}
       <main>
         <nav className="navmenu navbar navbar-expand-lg mobile-nav">
           <div className="container">

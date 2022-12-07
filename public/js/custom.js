@@ -112,11 +112,11 @@
       $('#msgSubmit').removeClass().addClass(msgClasses).text(msg);
     }
 
-    // Page loader
-    var pageLoaderComponent = document.querySelector('.page-loader');
-    pageLoaderComponent.style.opacity = 0;
-    setTimeout(function () {
-      pageLoaderComponent.style.display = 'none';
-    }, 1000);
+    // // Page loader
+    // var pageLoaderComponent = document.querySelector('.page-loader');
+    // pageLoaderComponent.style.opacity = 0;
+    // setTimeout(function () {
+    //   pageLoaderComponent.style.display = 'none';
+    // }, 1000);
   });
 })(jQuery);
