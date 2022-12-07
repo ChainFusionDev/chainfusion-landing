@@ -177,11 +177,11 @@
   }
 
   .mobile-nav .navbar-nav {
-    padding: 15px;
+    padding: 15px 10px;
   }
 
   .mobile-nav .navbar-nav li {
-    padding: 7px;
+    padding: 9px;
   }
 
   .navbar-toggler {
