@@ -211,57 +211,65 @@ export default function Home() {
                 <ul className="roadmap">
                   <li className="roadmap-card complete">
                     <div className="roadmap-timestamp">
-                      <span className="name-timeline">Decentralization</span>
+                      <span className="name-timeline">Prototype</span>
                       <span className="status-timeline">
                         <i className="fa-regular fa-check"></i> Done
                       </span>
                     </div>
                     <div className="datestamp">
-                      <h4>May 2022</h4>
+                      <h4>Q2 2022</h4>
                       <p>
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                        alteration in some form, by injected.
+                        Implement working propotype of decentralized cross-chain bridge
                       </p>
                     </div>
                   </li>
                   <li className="roadmap-card complete">
                     <div className="roadmap-timestamp">
-                      <span className="name-timeline">Security</span>
+                      <span className="name-timeline">ERC-20 Bridge</span>
                       <span className="status-timeline">
                         <i className="fa-regular fa-check"></i> Done
                       </span>
                     </div>
                     <div className="datestamp">
-                      <h4>October 2022</h4>
+                      <h4>Q3 2022</h4>
                       <p>
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                        alteration in some form, by injected.
+                        Implement ERC-20 Bridge with Web UI allowing to make cross-chain token transfers
                       </p>
                     </div>
                   </li>
                   <li className="roadmap-card">
                     <div className="roadmap-timestamp">
-                      <span className="name-timeline">Low Fees</span>
+                      <span className="name-timeline">Public Testnet</span>
                       <span className="status-timeline">Next</span>
                     </div>
                     <div className="datestamp">
-                      <h4>January 2023</h4>
+                      <h4>Q4 2022</h4>
                       <p>
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                        alteration in some form, by injected.
+                        Launch public test network connected to testnets of popular EVM compatible chains
                       </p>
                     </div>
                   </li>
                   <li className="roadmap-card">
                     <div className="roadmap-timestamp">
-                      <span className="name-timeline">Speed</span>
+                      <span className="name-timeline">Security Audits</span>
                       <span className="status-timeline">Next</span>
                     </div>
                     <div className="datestamp">
-                      <h4>February 2023</h4>
+                      <h4>Q2 2023</h4>
                       <p>
-                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                        alteration in some form, by injected.
+                        Audit validator node codebase and on-chain solidity smart contracts
+                      </p>
+                    </div>
+                  </li>
+                  <li className="roadmap-card">
+                    <div className="roadmap-timestamp">
+                      <span className="name-timeline">Mainnet Launch</span>
+                      <span className="status-timeline">Next</span>
+                    </div>
+                    <div className="datestamp">
+                      <h4>Q3 2023</h4>
+                      <p>
+                        Launch ChainFusion Mainnet on Ethereum, BSC and Polygon
                       </p>
                     </div>
                   </li>
@@ -542,9 +550,18 @@ export default function Home() {
                 <div className="title">How Bridge Works</div>
                 <div className="bottom-line"></div>
                 <div className="text-bridgeworks">
-                  Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                  classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
-                  professor at Hampden-Sydney College in Virginia, looked up one of the more obscure.
+                  <p>
+                    To confirm bridge transfers, validators use distributed key.
+                    During distributed key generation process validators come up with individual secret key shares,
+                    which later allows them to create signatures from mutual account. No one has access to full private key,
+                    from which signatures are created.
+                  </p>
+                  <p>
+                    Validators constantly monitor bridge transactions on all supported blockchains. Once they see a transfer event on source chain,
+                    they start the process of 6 rounds of transaction signing on destination chain.
+                    This transaction confirms that all the validators seen this event and transfer really took place.
+                    After transaction is executed, data is transferred on a destination chain.
+                  </p>
                 </div>
               </div>
             </div>
