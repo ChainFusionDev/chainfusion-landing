@@ -410,3 +410,11 @@
     opacity: 0.35;
   }
 }
+
+
+
+@media screen and (max-width: 1200px) {
+  nav ul li {
+    padding: 0px 8px;
+}
+}
