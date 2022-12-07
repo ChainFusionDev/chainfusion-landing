@@ -149,8 +149,8 @@ export default function Home() {
                   <div className="media-body">
                     <h4 className="mt-0">Decentralization</h4>
                     <p>
-                      There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                      alteration in some form, by injected. Contrary to popular belief, Lorem Ipsum is not simply.
+                      Bridge validators use threshold ECDSA signatures in order to achieve cross-chain communication decentralization.
+                      Anyone can become a validator to make ChainFusion even more decentralized.
                     </p>
                   </div>
                 </div>
@@ -162,8 +162,8 @@ export default function Home() {
                   <div className="media-body">
                     <h4 className="mt-0">Security</h4>
                     <p>
-                      There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                      alteration in some form, by injected. Contrary to popular belief, Lorem Ipsum is not simply.
+                      Project is built with security in mind. Validators collectively decide on all changes to the propocol.
+                      All the changes carefully tested using Test Networks, audited and shipped to Main Network.
                     </p>
                   </div>
                 </div>
@@ -175,8 +175,8 @@ export default function Home() {
                   <div className="media-body">
                     <h4 className="mt-0">Low Fees</h4>
                     <p>
-                      There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                      alteration in some form, by injected. Contrary to popular belief, Lorem Ipsum is not simply.
+                      Validators don't need to spend native currency on any of the supported blockchains.
+                      When making cross-chain data transfer only one collective transaction is created which makes bridge fees low.
                     </p>
                   </div>
                 </div>
@@ -188,8 +188,8 @@ export default function Home() {
                   <div className="media-body">
                     <h4 className="mt-0">Speed</h4>
                     <p>
-                      There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                      alteration in some form, by injected. Contrary to popular belief, Lorem Ipsum is not simply.
+                      Once transaction is sent to the blockchain, validators immediately start the process of verification.
+                      Verified transactions are signed then by validators using peer-to-peer network with sub second delay.
                     </p>
                   </div>
                 </div>
