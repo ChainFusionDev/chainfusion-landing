@@ -177,11 +177,11 @@
   }
 
   .mobile-nav .navbar-nav {
-    padding: 15px;
+    padding: 15px 10px;
   }
 
   .mobile-nav .navbar-nav li {
-    padding: 7px;
+    padding: 9px;
   }
 
   .navbar-toggler {
@@ -409,4 +409,12 @@
   .svg-two-block {
     opacity: 0.35;
   }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  nav ul li {
+    padding: 0px 8px;
+}
 }
