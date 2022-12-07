@@ -298,18 +298,17 @@ export default function Home() {
                 <div className="bottom-line"></div>
                 <div className="about-text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Lectus vestibulum mattis ullamcorper velit sed. Volutpat lacus laoreet non
-                    curabitur gravida. Dolor sit amet consectetur adipiscing elit. Congue quisque egestas diam in.
-                    Malesuada nunc vel risus commodo viverra maecenas accumsan.
+                    We believe that cross-chain is a future.
+                    There is already a lot of blockchains live and this is one of the reasons why this industry is decentralized.
+                    But most of the bridges are currently highly centralized, often due to technical limitations and lack of innovations.
+                    Centralization is the core reason why recently there were a lot of hacks of bridges.
                   </p>
                   <p>
-                    Vitae sapien pellentesque habitant morbi tristique senectus et. Id consectetur purus ut faucibus
-                    pulvinar elementum integer enim neque. Bibendum est ultricies integer quis auctor elit sed
-                    vulputate. Fermentum et sollicitudin ac orci phasellus egestas tellus rutrum tellus. Dignissim diam
-                    quis enim lobortis scelerisque fermentum. Odio ut sem nulla pharetra diam sit amet nisl suscipit.
-                    Laoreet id donec ultrices tincidunt arcu non sodales. Amet facilisis magna etiam tempor orci. In
-                    pellentesque massa placerat duis ultricies lacus. Quis hendrerit dolor magna eget est lorem ipsum.
+                    Our goal is to break this tendency and build decentralization and security first cross-chain solution.
+                    This is what ChainFusion Network achieves and improves on.
+                  </p>
+                  <p>
+                    Let's bring this future together!
                   </p>
                 </div>
               </div>
