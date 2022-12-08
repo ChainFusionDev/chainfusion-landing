@@ -11,8 +11,9 @@ import Script from 'next/script';
 function App({ Component, pageProps }: AppProps): JSX.Element {
   return (
     <>
-      <Script src="/js/bootstrap.bundle.min.js" />
+      <Script src="/js/jquery-3.6.1.min.js" strategy={'beforeInteractive'} />
       <Script src="/js/jquery.easing.min.js" />
+      <Script src="/js/bootstrap.bundle.min.js" />
       <Script src="/js/validator.min.js" />
       <Script src="/js/custom.js" />
       <Component {...pageProps} />

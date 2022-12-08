@@ -2,9 +2,11 @@
   .header__title {
     font-size: 2rem !important;
   }
+
   .img-home {
     width: 270px !important;
   }
+
   .circle-item {
     height: 250px !important;
     width: 250px !important;
@@ -55,9 +57,11 @@
   .title-link-footer {
     margin-bottom: 5px;
   }
+
   .link-footer {
     margin-bottom: 20px;
   }
+
   footer .copyright-text {
     text-align: center;
   }
@@ -71,9 +75,11 @@
     align-items: center !important;
     flex-direction: column;
   }
+
   .features-block .media-body h4 {
     text-align: center;
   }
+
   /* 3 - About Us */
 
   .aboutus .title {
@@ -83,9 +89,11 @@
   .aboutus .bottom-line {
     margin-left: auto;
   }
+
   .about-text {
     margin-bottom: 35px;
   }
+
   .img-about {
     width: 100% !important;
   }
@@ -114,7 +122,8 @@
     padding-top: 60px;
     padding-bottom: 50px;
   }
-  .link-footer li > a {
+
+  .link-footer li>a {
     line-height: 230%;
   }
 }
@@ -158,8 +167,6 @@
     border-width: 0 0 1px;
     padding: 7px 15px;
     background: var(--white);
-    -webkit-box-shadow: 0px 0px 64px 0px rgb(57 64 97 / 5%);
-    -moz-box-shadow: 0px 0px 64px 0px rgba(57, 64, 97, 0.05);
     box-shadow: 0px 0px 64px 0px rgb(57 64 97 / 5%);
   }
 
@@ -343,9 +350,11 @@
   .aboutus .bottom-line {
     margin-left: auto;
   }
+
   .about-text {
     margin-bottom: 35px;
   }
+
   .img-about {
     width: 400px;
   }
@@ -355,6 +364,7 @@
   .blockchain-title {
     margin-top: 35px;
   }
+
   .token-logo,
   .blockchain-logo {
     height: 130px;
@@ -411,10 +421,8 @@
   }
 }
 
-
-
 @media screen and (max-width: 1200px) {
   nav ul li {
     padding: 0px 8px;
-}
+  }
 }

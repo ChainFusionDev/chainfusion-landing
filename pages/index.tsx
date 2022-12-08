@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Script from 'next/script';
 import React, { useEffect } from 'react';
 
 /* eslint-disable */
@@ -22,23 +21,6 @@ export default function Home() {
         <link rel="icon" href="/img/favicon.svg" sizes="any" type="image/svg+xml" />
       </Head>
 
-      {/* <div className="page-loader">
-        <div id="chainload-loader" className="center-loader">
-          <img className="logo-loader center-loader" src="/img/icon-load.svg" />
-          <svg id="chainload" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129.78 150.37">
-            <path
-              id="chainload-base"
-              d="M-1665.43,90.94V35.83a15.09,15.09,0,0,1,6.78-12.59l48.22-31.83a15.09,15.09,0,0,1,16-.38L-1547,19.13a15.09,15.09,0,0,1,7.39,13V90.94a15.09,15.09,0,0,1-7.21,12.87l-47.8,29.24a15.09,15.09,0,0,1-15.75,0l-47.8-29.24A15.09,15.09,0,0,1-1665.43,90.94Z"
-              transform="translate(1667.43 13.09)"
-            />
-            <path
-              id="chainload-line-animation"
-              d="M-1665.43,90.94V35.83a15.09,15.09,0,0,1,6.78-12.59l48.22-31.83a15.09,15.09,0,0,1,16-.38L-1547,19.13a15.09,15.09,0,0,1,7.39,13V90.94a15.09,15.09,0,0,1-7.21,12.87l-47.8,29.24a15.09,15.09,0,0,1-15.75,0l-47.8-29.24A15.09,15.09,0,0,1-1665.43,90.94Z"
-              transform="translate(1667.43 13.09)"
-            />
-          </svg>
-        </div>
-      </div> */}
       <main>
         <nav className="navmenu navbar navbar-expand-lg mobile-nav">
           <div className="container">
@@ -756,7 +738,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <Script src="/js/jquery-3.6.1.min.js" strategy="beforeInteractive" />
       </main>
     </div>
   );
