@@ -123,7 +123,7 @@ export default function Home() {
               <div className="col-12 col-sm-6">
                 <div className="media features-block">
                   <img
-                    src="/img/icon/features/1.svg"
+                    src="/img/icon/features/decentralization.svg"
                     className="icon-features"
                     draggable="false"
                     alt="Decentralization"
@@ -140,7 +140,7 @@ export default function Home() {
 
               <div className="col-12 col-sm-6">
                 <div className="media features-block">
-                  <img src="/img/icon/features/2.svg" className="icon-features" draggable="false" alt="Security" />
+                  <img src="/img/icon/features/security.svg" className="icon-features" draggable="false" alt="Security" />
                   <div className="media-body">
                     <h4 className="mt-0">Security</h4>
                     <p>
@@ -153,7 +153,7 @@ export default function Home() {
 
               <div className="col-12 col-sm-6">
                 <div className="media features-block">
-                  <img src="/img/icon/features/3.svg" className="icon-features" draggable="false" alt="Low fees" />
+                  <img src="/img/icon/features/low-fees.svg" className="icon-features" draggable="false" alt="Low fees" />
                   <div className="media-body">
                     <h4 className="mt-0">Low Fees</h4>
                     <p>
@@ -166,7 +166,7 @@ export default function Home() {
 
               <div className="col-12 col-sm-6">
                 <div className="media features-block">
-                  <img src="/img/icon/features/4.svg" className="icon-features" draggable="false" alt="Speed" />
+                  <img src="/img/icon/features/speed.svg" className="icon-features" draggable="false" alt="Speed" />
                   <div className="media-body">
                     <h4 className="mt-0">Speed</h4>
                     <p>
@@ -439,37 +439,37 @@ export default function Home() {
                 <div className="row tokens-list">
                   <div className="col-6 col-sm-4">
                     <div className="token-logo">
-                      <img src="/img/tokens/01.svg" draggable="false" alt="BTC" />
+                      <img src="/img/tokens/btc.svg" draggable="false" alt="BTC" />
                       <h4>BTC</h4>
                     </div>
                   </div>
                   <div className="col-6 col-sm-4">
                     <div className="token-logo">
-                      <img src="/img/tokens/02.svg" draggable="false" alt="ETH" />
+                      <img src="/img/tokens/eth.svg" draggable="false" alt="ETH" />
                       <h4>ETH</h4>
                     </div>
                   </div>
                   <div className="col-6 col-sm-4">
                     <div className="token-logo">
-                      <img src="/img/tokens/03.svg" draggable="false" alt="USDT" />
+                      <img src="/img/tokens/usdt.svg" draggable="false" alt="USDT" />
                       <h4>USDT</h4>
                     </div>
                   </div>
                   <div className="col-6 col-sm-4">
                     <div className="token-logo">
-                      <img src="/img/tokens/04.svg" draggable="false" alt="USDC" />
+                      <img src="/img/tokens/usdc.svg" draggable="false" alt="USDC" />
                       <h4>USDC</h4>
                     </div>
                   </div>
                   <div className="col-6 col-sm-4">
                     <div className="token-logo">
-                      <img src="/img/tokens/05.svg" draggable="false" alt="DAI" />
+                      <img src="/img/tokens/dai.svg" draggable="false" alt="DAI" />
                       <h4>DAI</h4>
                     </div>
                   </div>
                   <div className="col-6 col-sm-4">
                     <div className="token-logo">
-                      <img src="/img/tokens/06.svg" draggable="false" alt="XMR" />
+                      <img src="/img/tokens/xmr.svg" draggable="false" alt="XMR" />
                       <h4>XMR</h4>
                     </div>
                   </div>
@@ -481,37 +481,37 @@ export default function Home() {
                 <div className="row blockchains-list">
                   <div className="col-6 col-sm-4">
                     <div className="blockchain-logo">
-                      <img src="/img/blockchains/01.svg" draggable="false" alt="Ethereum" />
+                      <img src="/img/blockchains/ethereum.svg" draggable="false" alt="Ethereum" />
                       <h4>Ethereum</h4>
                     </div>
                   </div>
                   <div className="col-6 col-sm-4">
                     <div className="blockchain-logo">
-                      <img src="/img/blockchains/02.svg" draggable="false" alt="Avalanche" />
+                      <img src="/img/blockchains/avalanche.svg" draggable="false" alt="Avalanche" />
                       <h4>Avalanche</h4>
                     </div>
                   </div>
                   <div className="col-6 col-sm-4">
                     <div className="blockchain-logo">
-                      <img src="/img/blockchains/03.svg" draggable="false" alt="BNB Chain" />
+                      <img src="/img/blockchains/bsc.svg" draggable="false" alt="Binance Smart Chain" />
                       <h4>BNB Chain</h4>
                     </div>
                   </div>
                   <div className="col-6 col-sm-4">
                     <div className="blockchain-logo">
-                      <img src="/img/blockchains/04.svg" draggable="false" alt="Polygon" />
+                      <img src="/img/blockchains/polygon.svg" draggable="false" alt="Polygon" />
                       <h4>Polygon</h4>
                     </div>
                   </div>
                   <div className="col-6 col-sm-4">
                     <div className="blockchain-logo">
-                      <img src="/img/blockchains/05.svg" draggable="false" alt="Aurora" />
-                      <h4>Aurora</h4>
+                      <img src="/img/blockchains/fantom.svg" draggable="false" alt="Fantom" />
+                      <h4>Fantom</h4>
                     </div>
                   </div>
                   <div className="col-6 col-sm-4">
                     <div className="blockchain-logo">
-                      <img src="/img/blockchains/06.svg" draggable="false" alt="Moonriver" />
+                      <img src="/img/blockchains/moonriver.svg" draggable="false" alt="Moonriver" />
                       <h4>Moonriver</h4>
                     </div>
                   </div>
