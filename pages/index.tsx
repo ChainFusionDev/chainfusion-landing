@@ -347,7 +347,7 @@ export default function Home() {
                       className="accordion-head"
                     >
                       <div className="accordion-card card-header" id="faqhead2">
-                        <div className="title-accordion">What's the last book you gave up on and stopped reading?</div>
+                        <div className="title-accordion">How to stake and become a validator?</div>
                         <div className="icon-accordion"></div>
                       </div>
                     </a>
@@ -374,7 +374,7 @@ export default function Home() {
                       className="accordion-head"
                     >
                       <div className="accordion-card card-header" id="faqhead3">
-                        <div className="title-accordion">What story does your family always tell about you?</div>
+                        <div className="title-accordion">How to earn rewards as a liquidity provider?</div>
                         <div className="icon-accordion"></div>
                       </div>
                     </a>
@@ -401,7 +401,7 @@ export default function Home() {
                       className="accordion-head"
                     >
                       <div className="accordion-card card-header" id="faqhead4">
-                        <div className="title-accordion">If you were a vegetable, what vegetable would you be?</div>
+                        <div className="title-accordion">How to get CFN tokens?</div>
                         <div className="icon-accordion"></div>
                       </div>
                     </a>
@@ -439,18 +439,6 @@ export default function Home() {
                 <div className="row tokens-list">
                   <div className="col-6 col-sm-4">
                     <div className="token-logo">
-                      <img src="/img/tokens/btc.svg" draggable="false" alt="BTC" />
-                      <h4>BTC</h4>
-                    </div>
-                  </div>
-                  <div className="col-6 col-sm-4">
-                    <div className="token-logo">
-                      <img src="/img/tokens/eth.svg" draggable="false" alt="ETH" />
-                      <h4>ETH</h4>
-                    </div>
-                  </div>
-                  <div className="col-6 col-sm-4">
-                    <div className="token-logo">
                       <img src="/img/tokens/usdt.svg" draggable="false" alt="USDT" />
                       <h4>USDT</h4>
                     </div>
@@ -469,8 +457,20 @@ export default function Home() {
                   </div>
                   <div className="col-6 col-sm-4">
                     <div className="token-logo">
-                      <img src="/img/tokens/xmr.svg" draggable="false" alt="XMR" />
-                      <h4>XMR</h4>
+                      <img src="/img/tokens/eth.svg" draggable="false" alt="ETH" />
+                      <h4>ETH</h4>
+                    </div>
+                  </div>
+                  <div className="col-6 col-sm-4">
+                    <div className="token-logo">
+                      <img src="/img/tokens/btc.svg" draggable="false" alt="BTC" />
+                      <h4>BTC</h4>
+                    </div>
+                  </div>
+                  <div className="col-6 col-sm-4">
+                    <div className="token-logo">
+                      <img src="/img/tokens/bnb.svg" draggable="false" alt="BNB" />
+                      <h4>BNB</h4>
                     </div>
                   </div>
                 </div>
@@ -487,20 +487,20 @@ export default function Home() {
                   </div>
                   <div className="col-6 col-sm-4">
                     <div className="blockchain-logo">
-                      <img src="/img/blockchains/avalanche.svg" draggable="false" alt="Avalanche" />
-                      <h4>Avalanche</h4>
-                    </div>
-                  </div>
-                  <div className="col-6 col-sm-4">
-                    <div className="blockchain-logo">
                       <img src="/img/blockchains/bsc.svg" draggable="false" alt="Binance Smart Chain" />
-                      <h4>BNB Chain</h4>
+                      <h4>BSC</h4>
                     </div>
                   </div>
                   <div className="col-6 col-sm-4">
                     <div className="blockchain-logo">
                       <img src="/img/blockchains/polygon.svg" draggable="false" alt="Polygon" />
                       <h4>Polygon</h4>
+                    </div>
+                  </div>
+                  <div className="col-6 col-sm-4">
+                    <div className="blockchain-logo">
+                      <img src="/img/blockchains/avalanche.svg" draggable="false" alt="Avalanche" />
+                      <h4>Avalanche</h4>
                     </div>
                   </div>
                   <div className="col-6 col-sm-4">
