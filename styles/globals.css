@@ -124,13 +124,14 @@ nav ul li a:hover {
 }
 
 .blurred-nav-fixed {
-  position: fixed;
-  top: 0;
-  border-width: 0 0 1px;
-  padding: 8px;
-  background: var(--white);
-  backdrop-filter: blur(8px);
-  box-shadow: 0px 0px 64px 0px rgba(57, 64, 97, 0.05);
+    position: fixed;
+    top: 0;
+    border-width: 0 0 1px;
+    padding: 8px;
+    background: rgb(255 255 255 / 85%);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    box-shadow: 0px 0px 64px 0px rgb(57 64 97 / 15%);
 }
 
 .blurred-nav-fixed .logo img {
