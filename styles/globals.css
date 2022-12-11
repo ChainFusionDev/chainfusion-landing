@@ -388,6 +388,7 @@ section {
 }
 
 .roadmap-card {
+  width: 100%;
   display: table-cell;
   position: relative;
   min-width: 210px;
