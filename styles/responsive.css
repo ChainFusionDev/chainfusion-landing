@@ -267,6 +267,8 @@
   }
 
   .roadmap-card {
+    overflow-x: visible;
+    overflow-y: visible;
     width: 90%;
     border-left: 3px solid var(--light);
     min-height: 150px;

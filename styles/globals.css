@@ -380,15 +380,21 @@ section {
 /* 2 - Roadmap */
 
 .roadmap {
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
   padding-inline-start: 0px !important;
   list-style-type: none;
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
 }
 
 .roadmap-card {
-  width: 100%;
+  display: table-cell;
+  position: relative;
+  min-width: 210px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  user-select: none;
+  cursor: pointer;
 }
 
 .roadmap-timestamp {

@@ -181,7 +181,7 @@ export default function Home() {
         </section>
 
         <section id="roadmap" className="roadmap-section">
-          <div className="container">
+          <div className="container-fluid">
             <div className="row">
               <div className="col-12">
                 <div className="title">Roadmap</div>
@@ -240,6 +240,30 @@ export default function Home() {
                       <h4>Q2 2023</h4>
                       <p>
                         Audit validator node codebase and on-chain solidity smart contracts
+                      </p>
+                    </div>
+                  </li>
+                  <li className="roadmap-card">
+                    <div className="roadmap-timestamp">
+                      <span className="name-timeline">Mainnet Launch</span>
+                      <span className="status-timeline">Next</span>
+                    </div>
+                    <div className="datestamp">
+                      <h4>Q3 2023</h4>
+                      <p>
+                        Launch ChainFusion Mainnet on Ethereum, BSC and Polygon
+                      </p>
+                    </div>
+                  </li>
+                  <li className="roadmap-card">
+                    <div className="roadmap-timestamp">
+                      <span className="name-timeline">Mainnet Launch</span>
+                      <span className="status-timeline">Next</span>
+                    </div>
+                    <div className="datestamp">
+                      <h4>Q3 2023</h4>
+                      <p>
+                        Launch ChainFusion Mainnet on Ethereum, BSC and Polygon
                       </p>
                     </div>
                   </li>
