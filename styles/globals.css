@@ -395,7 +395,11 @@ section {
   overflow-x: hidden;
   overflow-y: hidden;
   user-select: none;
-  cursor: pointer;
+  cursor: grab;
+}
+
+.roadmap-card:active {
+  cursor: grabbing;
 }
 
 .roadmap-timestamp {
