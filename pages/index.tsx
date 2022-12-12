@@ -181,7 +181,7 @@ export default function Home() {
         </section>
 
         <section id="roadmap" className="roadmap-section">
-          <div className="container">
+          <div className="container-fluid">
             <div className="row">
               <div className="col-12">
                 <div className="title">Roadmap</div>
@@ -233,6 +233,18 @@ export default function Home() {
                   </li>
                   <li className="roadmap-card">
                     <div className="roadmap-timestamp">
+                      <span className="name-timeline">Cross-Chain Swap</span>
+                      <span className="status-timeline">Next</span>
+                    </div>
+                    <div className="datestamp">
+                      <h4>Q1 2023</h4>
+                      <p>
+                        Launch cross-chain token swap feature allowing to change receiving token
+                      </p>
+                    </div>
+                  </li>
+                  <li className="roadmap-card">
+                    <div className="roadmap-timestamp">
                       <span className="name-timeline">Security Audits</span>
                       <span className="status-timeline">Next</span>
                     </div>
@@ -249,9 +261,21 @@ export default function Home() {
                       <span className="status-timeline">Next</span>
                     </div>
                     <div className="datestamp">
-                      <h4>Q3 2023</h4>
+                      <h4>Q4 2023</h4>
                       <p>
                         Launch ChainFusion Mainnet on Ethereum, BSC and Polygon
+                      </p>
+                    </div>
+                  </li>
+                  <li className="roadmap-card">
+                    <div className="roadmap-timestamp">
+                      <span className="name-timeline">Token Sale</span>
+                      <span className="status-timeline">Next</span>
+                    </div>
+                    <div className="datestamp">
+                      <h4>Q1 2024</h4>
+                      <p>
+                        Public sale of CFN tokens allowing everyone to stake and become a validator
                       </p>
                     </div>
                   </li>
