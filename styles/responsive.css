@@ -428,3 +428,11 @@
     padding: 0px 8px;
   }
 }
+
+
+@media (pointer: coarse) {
+/* 2 - Roadmap */
+.roadmap {
+  overflow-x: visible;
+} 
+}
