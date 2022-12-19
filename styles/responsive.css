@@ -108,7 +108,8 @@
   /* 6 - How Bridge Works */
 
   .illustration-bridge {
-    max-width: 340px;
+    width: auto;
+    max-width: 420px;
     margin-bottom: 0px;
   }
 
