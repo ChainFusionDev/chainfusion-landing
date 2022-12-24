@@ -65,6 +65,14 @@
   footer .copyright-text {
     text-align: center;
   }
+  #illustration-header {
+    max-width: 230px !important;
+    margin-top: 0px;
+    margin-bottom: 20px !important;
+  }
+  .illustration-bridge {
+    max-width: 360px !important;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -108,8 +116,8 @@
   /* 6 - How Bridge Works */
 
   .illustration-bridge {
-    width: auto;
-    max-width: 420px;
+    width: 100%;
+    max-width: 425px;
     margin-bottom: 0px;
   }
 
@@ -422,11 +430,19 @@
   .svg-two-block {
     opacity: 0.35;
   }
+
+  #illustration-header {
+    max-width: 260px;
+    margin-bottom: 35px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
   nav ul li {
     padding: 0px 8px;
+  }
+  #illustration-header {
+    max-width: 335px;
   }
 }
 
