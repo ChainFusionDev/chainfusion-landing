@@ -124,14 +124,14 @@ nav ul li a:hover {
 }
 
 .blurred-nav-fixed {
-    position: fixed;
-    top: 0;
-    border-width: 0 0 1px;
-    padding: 8px;
-    background: rgb(255 255 255 / 85%);
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
-    box-shadow: 0px 0px 64px 0px rgb(57 64 97 / 13%);
+  position: fixed;
+  top: 0;
+  border-width: 0 0 1px;
+  padding: 8px;
+  background: rgb(255 255 255 / 85%);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  box-shadow: 0px 0px 64px 0px rgb(57 64 97 / 13%);
 }
 
 .blurred-nav-fixed .logo img {
@@ -1002,4 +1002,400 @@ input {
   color: white;
   outline: none;
   box-shadow: none;
+}
+
+/* Header illustration animate */
+
+#line-vertical-1 > rect {
+  -webkit-animation: move-line-up 0.2s infinite;
+  -moz-animation: move-line-up 0.2s infinite;
+  animation: move-line-up 0.2s infinite;
+}
+
+@keyframes move-line-up {
+  0% {
+    transform: translateY(0px);
+  }
+  20% {
+    transform: translateY(-1px);
+  }
+  40% {
+    transform: translateY(-2px);
+  }
+  60% {
+    transform: translateY(-3px);
+  }
+  80% {
+    transform: translateY(-4px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
+#line-vertical-1_2 > rect {
+  -webkit-animation: move-line-down 0.2s infinite;
+  -moz-animation: move-line-down 0.2s infinite;
+  animation: move-line-down 0.2s infinite;
+}
+
+@keyframes move-line-down {
+  0% {
+    transform: translateY(-5px);
+  }
+  20% {
+    transform: translateY(-4px);
+  }
+  40% {
+    transform: translateY(-3px);
+  }
+  60% {
+    transform: translateY(-2px);
+  }
+  80% {
+    transform: translateY(-1px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+#line-vertical-3 > rect {
+  -webkit-animation: move-line-down 0.4s infinite;
+  -moz-animation: move-line-down 0.4s infinite;
+  animation: move-line-down 0.4s infinite;
+}
+
+#line-vertical-4 > rect {
+  -webkit-animation: move-line-up 0.4s infinite;
+  -moz-animation: move-line-up 0.4s infinite;
+  animation: move-line-up 0.4s infinite;
+}
+
+#line-vertical-5 {
+  transform: translate(-100px, 300px) rotate(-59deg);
+}
+
+#line-vertical-5 > rect {
+  -webkit-animation: move-line-up 0.4s infinite;
+  -moz-animation: move-line-up 0.4s infinite;
+  animation: move-line-up 0.4s infinite;
+}
+
+#line-vertical-6 {
+  transform: translate(135px, -300px) rotate(59deg);
+}
+
+#line-vertical-6 > rect {
+  -webkit-animation: move-line-down 0.4s infinite;
+  -moz-animation: move-line-down 0.4s infinite;
+  animation: move-line-down 0.4s infinite;
+}
+
+#line-vertical-7 {
+  transform: translate(-235px, 540px) rotate(-59deg);
+}
+
+#line-vertical-7 > rect {
+  -webkit-animation: move-line-down 0.4s infinite;
+  -moz-animation: move-line-down 0.4s infinite;
+  animation: move-line-down 0.4s infinite;
+}
+
+#line-vertical-8 {
+  transform: translate(265px, -59px) rotate(59deg);
+}
+
+#line-vertical-8 > rect {
+  -webkit-animation: move-line-up 0.4s infinite;
+  -moz-animation: move-line-up 0.4s infinite;
+  animation: move-line-up 0.4s infinite;
+}
+
+#line-diagonal-inside-1 {
+  transform: translate(290px, -207px) rotate(60deg);
+}
+
+#line-diagonal-inside-2 {
+  transform: translate(-244px, 399px) rotate(-60deg);
+}
+
+#line-diagonal-inside-3 {
+  transform: translate(-67px, 465px) rotate(-60deg);
+}
+
+#line-diagonal-inside-4 {
+  transform: translate(121px, -145px) rotate(60deg);
+}
+
+#line-diagonal-inside-1 > rect,
+#line-diagonal-inside-2 > rect {
+  -webkit-animation: move-line-up 0.2s infinite;
+  -moz-animation: move-line-up 0.2s infinite;
+  animation: move-line-up 0.2s infinite;
+}
+
+#line-diagonal-inside-3 > rect,
+#line-diagonal-inside-4 > rect {
+  -webkit-animation: move-line-down 0.2s infinite;
+  -moz-animation: move-line-down 0.2s infinite;
+  animation: move-line-down 0.2s infinite;
+}
+
+/* Animate center logo */
+
+#icon-svg-inside {
+  animation-name: pulseLogoSvg;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulseLogoSvg {
+  0% {
+    transform: scale(0.9);
+    transform-origin: 50% 50%;
+  }
+  50% {
+    transform: scale(1.1);
+    transform-origin: 50% 50%;
+  }
+  100% {
+    transform: scale(0.9);
+    transform-origin: 50% 50%;
+  }
+}
+
+#Polygon-040404 {
+  animation: rotate-frame-logo 7s infinite;
+  animation-delay: 2000ms;
+}
+
+@keyframes rotate-frame-logo {
+  22% {
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
+  }
+  78% {
+    transform: rotate(60deg);
+    transform-origin: 50.1% 49.7%;
+  }
+  100% {
+    transform: rotate(0deg);
+    transform-origin: 50% 50%;
+  }
+}
+
+#Polygon-002 {
+  animation: pulsePolygon-002 8s infinite;
+  animation-delay: 1000ms;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes pulsePolygon-002 {
+  0% {
+    transform: scale(1);
+    transform-origin: 50% 10%;
+  }
+  25% {
+    transform: scale(1.1);
+    transform-origin: 50% 10%;
+  }
+  50% {
+    transform: scale(0.95);
+    transform-origin: 50% 10%;
+  }
+  75% {
+    transform: scale(1.1);
+    transform-origin: 50% 10%;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: 50% 10%;
+  }
+}
+
+#Polygon-007 {
+  animation: pulsePolygon-007 8s infinite;
+  animation-delay: 1200ms;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes pulsePolygon-007 {
+  0% {
+    transform: scale(1);
+    transform-origin: 88% 31%;
+  }
+  25% {
+    transform: scale(1.1);
+    transform-origin: 88% 31%;
+  }
+  50% {
+    transform: scale(0.95);
+    transform-origin: 88% 31%;
+  }
+  75% {
+    transform: scale(1.1);
+    transform-origin: 88% 31%;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: 88% 31%;
+  }
+}
+
+#Polygon-0013 {
+  animation: pulsePolygon-0013 8s infinite;
+  animation-delay: 1400ms;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes pulsePolygon-0013 {
+  0% {
+    transform: scale(1);
+    transform-origin: 88% 69%;
+  }
+  25% {
+    transform: scale(1.1);
+    transform-origin: 88% 69%;
+  }
+  50% {
+    transform: scale(0.95);
+    transform-origin: 88% 69%;
+  }
+  75% {
+    transform: scale(1.1);
+    transform-origin: 88% 69%;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: 88% 69%;
+  }
+}
+
+#Polygon-009 {
+  animation: pulsePolygon-009 8s infinite;
+  animation-delay: 1600ms;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes pulsePolygon-009 {
+  0% {
+    transform: scale(1);
+    transform-origin: 50% 88%;
+  }
+  25% {
+    transform: scale(1.1);
+    transform-origin: 50% 88%;
+  }
+  50% {
+    transform: scale(0.95);
+    transform-origin: 50% 88%;
+  }
+  75% {
+    transform: scale(1.1);
+    transform-origin: 50% 88%;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: 50% 88%;
+  }
+}
+
+#Polygon-0011 {
+  animation: pulsePolygon-0011 8s infinite;
+  animation-delay: 1800ms;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes pulsePolygon-0011 {
+  0% {
+    transform: scale(1);
+    transform-origin: 11% 69%;
+  }
+  25% {
+    transform: scale(1.1);
+    transform-origin: 11% 69%;
+  }
+  50% {
+    transform: scale(0.95);
+    transform-origin: 11% 69%;
+  }
+  75% {
+    transform: scale(1.1);
+    transform-origin: 11% 69%;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: 11% 69%;
+  }
+}
+
+#Polygon-004 {
+  animation: pulsePolygon-004 8s infinite;
+  animation-delay: 2000ms;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes pulsePolygon-004 {
+  0% {
+    transform: scale(1);
+    transform-origin: 11% 31%;
+  }
+  25% {
+    transform: scale(1.1);
+    transform-origin: 11% 31%;
+  }
+  50% {
+    transform: scale(0.95);
+    transform-origin: 11% 31%;
+  }
+  75% {
+    transform: scale(1.1);
+    transform-origin: 11% 31%;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: 11% 31%;
+  }
+}
+
+#Vector_22,
+#Vector_44,
+#Vector_66,
+#Vector_88,
+#Vector_96,
+#Vector_110,
+#Vector_128,
+#Vector_151,
+#Vector_173,
+#Vector_195,
+#Vector_217,
+#Vector_225,
+#Vector_234,
+#Vector_243,
+#Vector_252 {
+  mix-blend-mode: overlay;
+}
+
+#Vector_89,
+#Vector_90,
+#Vector_103,
+#Vector_104,
+#Vector_121,
+#Vector_122,
+#Vector_218,
+#Vector_219,
+#Vector_227,
+#Vector_228,
+#Vector_236,
+#Vector_237,
+#Vector_245,
+#Vector_246 {
+  mix-blend-mode: multiply;
+}
+
+#illustration-header {
+  width: 100%;
+  height: 100%;
+  max-width: 470px;
 }
