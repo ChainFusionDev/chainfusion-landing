@@ -1868,10 +1868,12 @@ export default function Home() {
                       </p>
                     </div>
                   </li>
-                  <li className="roadmap-card">
+                  <li className="roadmap-card complete">
                     <div className="roadmap-timestamp">
                       <span className="name-timeline">Public Testnet</span>
-                      <span className="status-timeline">Next</span>
+                      <span className="status-timeline">
+                        <i className="fa-regular fa-check"></i> Done
+                      </span>
                     </div>
                     <div className="datestamp">
                       <h4>Q4 2022</h4>
@@ -1886,7 +1888,7 @@ export default function Home() {
                       <span className="status-timeline">Next</span>
                     </div>
                     <div className="datestamp">
-                      <h4>Q1 2023</h4>
+                      <h4>Q4 2023</h4>
                       <p>
                         Launch cross-chain token swap feature allowing to change receiving token
                       </p>
@@ -1898,7 +1900,7 @@ export default function Home() {
                       <span className="status-timeline">Next</span>
                     </div>
                     <div className="datestamp">
-                      <h4>Q2 2023</h4>
+                      <h4>Q1 2024</h4>
                       <p>
                         Audit validator node codebase and on-chain solidity smart contracts
                       </p>
@@ -1910,7 +1912,7 @@ export default function Home() {
                       <span className="status-timeline">Next</span>
                     </div>
                     <div className="datestamp">
-                      <h4>Q4 2023</h4>
+                      <h4>Q3 2024</h4>
                       <p>
                         Launch ChainFusion Mainnet on Ethereum, BSC and Polygon
                       </p>
@@ -1922,7 +1924,7 @@ export default function Home() {
                       <span className="status-timeline">Next</span>
                     </div>
                     <div className="datestamp">
-                      <h4>Q1 2024</h4>
+                      <h4>Q4 2024</h4>
                       <p>
                         Public sale of CFN tokens allowing everyone to stake and become a validator
                       </p>
