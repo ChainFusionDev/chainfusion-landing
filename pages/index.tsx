@@ -1956,12 +1956,12 @@ export default function Home() {
                 <div className="about-text">
                   <p>
                     We believe that cross-chain is a future.
-                    There is already a lot of blockchains live and this is one of the reasons why this industry is decentralized.
-                    But most of the bridges are currently highly centralized, often due to technical limitations and lack of innovations.
-                    Centralization is the core reason why recently there were a lot of hacks of bridges.
+                    The existence of numerous live blockchains contributes significantly to the decentralization of the industry.
+                    However, a majority of the bridges currently exhibit a high degree of centralization, primarily due to technical limitations and a lack of innovative solutions.
+                    The prevalence of recent bridge hacks can be attributed to the centralization factor as its primary cause.
                   </p>
                   <p>
-                    Our goal is to break this tendency and build decentralization and security first cross-chain solution.
+                    Our goal is to break this tendency and build decentralized, security first cross-chain solution.
                     This is what ChainFusion protocol strives to achieve.
                   </p>
                   <p>
