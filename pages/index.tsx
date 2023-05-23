@@ -1920,13 +1920,13 @@ export default function Home() {
                   </li>
                   <li className="roadmap-card">
                     <div className="roadmap-timestamp">
-                      <span className="name-timeline">Token Sale</span>
+                      <span className="name-timeline">Public Listing</span>
                       <span className="status-timeline">Next</span>
                     </div>
                     <div className="datestamp">
                       <h4>Q4 2024</h4>
                       <p>
-                        Public sale of CFN tokens allowing everyone to stake and become a validator
+                        Public listing of CFN tokens allowing to participate in ChainFusion protocol
                       </p>
                     </div>
                   </li>
