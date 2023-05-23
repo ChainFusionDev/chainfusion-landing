@@ -69,7 +69,7 @@ export default function Home() {
                 </li>
                 <li className="nav-item">
                   <a className="nav-get-btn" href="https://app.chainfusion.org">
-                    Make Transfer <i className="fa-light fa-shuffle"></i>
+                    Make a Transfer <i className="fa-light fa-shuffle"></i>
                   </a>
                 </li>
               </ul>
@@ -2001,13 +2001,8 @@ export default function Home() {
 
                     <div id="faq1" className="collapse" aria-labelledby="faqhead1" data-parent="#faq-accordion">
                       <div className="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-                        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
-                        laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
-                        coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
-                        anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
-                        occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard
-                        of them accusamus labore sustainable VHS.
+                        Making <b>ERC-20</b> token transfer from one blockchain to another is as easy as heading to the <a href="https://app.chainfusion.org">Transfer Page</a>, connecting wallet, specifying amount and pressing <b>Transfer</b> button.
+                        Your transfer is secured by decentralized set of <b>validators</b> which are constantly ensuring security of transfers and monitoring other validators.
                       </div>
                     </div>
                   </div>
@@ -2029,13 +2024,11 @@ export default function Home() {
 
                     <div id="faq2" className="collapse" aria-labelledby="faqhead2" data-parent="#faq-accordion">
                       <div className="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-                        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
-                        laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
-                        coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
-                        anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
-                        occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard
-                        of them accusamus labore sustainable VHS.
+                        <b>ChainFusion</b> is a decentralized protocol that allows anyone to become a validator.
+                        Validators receive rewards by processing cross-chain transactions and creating blocks in <b>ChainFusion</b> network.
+                        Validators have responsibility to run, maintain and monitor their validator node.
+                        After syncing validator node you need to <a href="https://app.chainfusion.org/staking">stake</a> certain amount of native CFN tokens.
+                        To receive Testnet CFN tokens you can use <a href="https://faucet.chainfusion.org">Testnet Faucet</a>.
                       </div>
                     </div>
                   </div>
@@ -2056,13 +2049,9 @@ export default function Home() {
 
                     <div id="faq3" className="collapse" aria-labelledby="faqhead3" data-parent="#faq-accordion">
                       <div className="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-                        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
-                        laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
-                        coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
-                        anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
-                        occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard
-                        of them accusamus labore sustainable VHS.
+                        <b>ChainFusion ERC-20 Bridge</b> allows token holders to provide their liquidity on different blockchains using the <a href="https://app.chainfusion.org/liquidity">Liquidity Page</a>.
+                        Once liquidity provided and users use it by making cross-chain transfers,
+                        liquidity providers start accumulating interest that could be claimed as reward for providing liquidity.
                       </div>
                     </div>
                   </div>
@@ -2083,13 +2072,7 @@ export default function Home() {
 
                     <div id="faq4" className="collapse" aria-labelledby="faqhead4" data-parent="#faq-accordion">
                       <div className="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-                        3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
-                        laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
-                        coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
-                        anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
-                        occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard
-                        of them accusamus labore sustainable VHS.
+                        <b>CFN</b> tokens could be received using <a href="https://faucet.chainfusion.org">Testnet Faucet</a> where you can claim by inputing your <b>public address</b> and pressing <b>Claim</b> button
                       </div>
                     </div>
                   </div>
@@ -2255,7 +2238,7 @@ export default function Home() {
               </div>
               <div className="col-12 col-lg-3">
                 <div className="btn-questions">
-                  <a href="#" className="btn-transparent" data-toggle="modal" data-target="#contactModal">
+                  <a href="https://t.me/floodcode" className="btn-transparent">
                     Contacts Us <i className="fa-light fa-arrow-right"></i>
                   </a>
                 </div>
@@ -2347,72 +2330,6 @@ export default function Home() {
             </div>
           </div>
         </footer>
-
-        <div className="modal fade contactmodal" id="contactModal">
-          <div className="modal-dialog">
-            <div className="modal-content">
-              <div className="modal-header">
-                <button type="button" className="close" data-dismiss="modal">
-                  <i className="fa-light fa-xmark-large"></i>
-                </button>
-              </div>
-
-              <div className="modal-body">
-                <h4 className="title-contact-form">Do you want to contact us?</h4>
-
-                <div className="row">
-                  <div className="col-md-12">
-                    <div className="contact-form-block">
-                      <div id="msgSubmit" className="text-center hidden"></div>
-
-                      <form role="form" id="contactForm" className="contact-form" data-toggle="validator">
-                        <div className="form-group">
-                          <div className="controls">
-                            <input
-                              type="text"
-                              id="name"
-                              className="form-control"
-                              placeholder="Your name*"
-                              required
-                              data-error="Please enter your name"
-                            />
-                          </div>
-                        </div>
-                        <div className="form-group">
-                          <div className="controls">
-                            <input
-                              type="email"
-                              className="email form-control"
-                              id="email"
-                              placeholder="Email*"
-                              required
-                              data-error="Please enter your email"
-                            />
-                          </div>
-                        </div>
-                        <div className="form-group">
-                          <div className="controls">
-                            <textarea
-                              id="message"
-                              rows={5}
-                              placeholder="Write your message.."
-                              className="form-control"
-                            ></textarea>
-                          </div>
-                        </div>
-
-                        <button type="submit" id="submit" className="btn btn-effect">
-                          <i className="fa-light fa-paper-plane"></i> Send Message
-                        </button>
-                        <div className="clearfix"></div>
-                      </form>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </main>
     </div>
   );
