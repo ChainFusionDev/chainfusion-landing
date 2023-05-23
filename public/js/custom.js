@@ -56,62 +56,6 @@
       }
     });
 
-    // Contact form
-    $('#contactForm')
-      .validator()
-      .on('submit', function (event) {
-        if (event.isDefaultPrevented()) {
-          formError();
-          submitMSG(false, 'Please fill in all fields!');
-        } else {
-          event.preventDefault();
-          submitForm();
-        }
-      });
-
-    function submitForm() {
-      var name = $('#name').val();
-      var email = $('#email').val();
-      var message = $('#message').val();
-
-      $.ajax({
-        type: 'POST',
-        url: '/contactform/send.php',
-        data: '&name=' + name + '&email=' + email + '&message=' + message,
-        success: function (text) {
-          if (text == 'success') {
-            formSuccess();
-          } else {
-            formError();
-            submitMSG(false, text);
-          }
-        },
-      });
-    }
-
-    function formSuccess() {
-      $('#contactForm')[0].reset();
-      submitMSG(true, 'Your message has been sent!');
-    }
-
-    function formError() {
-      $('#contactForm')
-        .removeClass()
-        .addClass('shake animated')
-        .one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
-          $(this).removeClass();
-        });
-    }
-
-    function submitMSG(valid, msg) {
-      if (valid) {
-        var msgClasses = 'text-center tada animated form-success';
-      } else {
-        var msgClasses = 'text-center form-error';
-      }
-      $('#msgSubmit').removeClass().addClass(msgClasses).text(msg);
-    }
-
     // Horizontal Scroll timeline
     const slider = document.querySelector('.roadmap');
     let isDown = false;

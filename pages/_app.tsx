@@ -14,7 +14,6 @@ function App({ Component, pageProps }: AppProps): JSX.Element {
       <Script src="/js/jquery-3.6.1.min.js" strategy={'beforeInteractive'} />
       <Script src="/js/bootstrap.min.js" />
       <Script src="/js/jquery.easing.min.js" />
-      <Script src="/js/validator.min.js" />
       <Script src="/js/custom.js" />
       <Component {...pageProps} />
     </>
