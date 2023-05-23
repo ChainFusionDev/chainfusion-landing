@@ -2233,7 +2233,7 @@ export default function Home() {
               <div className="col-12 col-lg-8">
                 <div className="title-questions">
                   Having Any Questions?
-                  <p>Contact us and we will help you with your questions</p>
+                  <p>Contact us and we will help you to leverage full potential of ChainFusion protocol</p>
                 </div>
               </div>
               <div className="col-12 col-lg-3">
