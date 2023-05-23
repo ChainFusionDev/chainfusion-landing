@@ -1962,10 +1962,10 @@ export default function Home() {
                   </p>
                   <p>
                     Our goal is to break this tendency and build decentralization and security first cross-chain solution.
-                    This is what ChainFusion Network achieves and improves on.
+                    This is what ChainFusion protocol strives to achieve.
                   </p>
                   <p>
-                    Let's bring this future together!
+                    Let's bring decentralized cross-chain future together!
                   </p>
                 </div>
               </div>
@@ -2233,7 +2233,7 @@ export default function Home() {
               <div className="col-12 col-lg-8">
                 <div className="title-questions">
                   Having Any Questions?
-                  <p>Contact us and we will help you to leverage full potential of ChainFusion protocol</p>
+                  <p>Feel free to reach out to us for assistance with the ChainFusion protocol. We're here to help you unlock its full potential.</p>
                 </div>
               </div>
               <div className="col-12 col-lg-3">
