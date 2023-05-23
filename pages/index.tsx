@@ -2193,7 +2193,7 @@ export default function Home() {
                     To confirm bridge transfers, validators use distributed key.
                     During distributed key generation process validators come up with individual secret key shares,
                     which later allows them to create signatures from mutual account. No one has access to full private key,
-                    from which signatures are created.
+                    from which signatures are created.<br/>This makes ChainFusion protocol decentralized.
                   </p>
                   <p>
                     Validators constantly monitor bridge transactions on all supported blockchains. Once they see a transfer event on source chain,
@@ -2252,7 +2252,7 @@ export default function Home() {
             <div className="row d-flex align-items-center">
               <div className="col-12 col-sm-12 col-md-12 col-lg-6 footer-block">
                 <img src="/img/logo.svg" className="logo-footer" />
-                <p className="copyright-text">Copyright ChainFusion 2022, All Right Reserved</p>
+                <p className="copyright-text">Copyright ChainFusion 2023, All Right Reserved</p>
                 <ul className="social-footer">
                   <li>
                     <a href="https://twitter.com/chain_fusion" target="_blank">
@@ -2260,7 +2260,7 @@ export default function Home() {
                     </a>
                   </li>
                   <li>
-                    <a href="#" target="_blank">
+                    <a href="https://t.me/chainfusion" target="_blank">
                       <img src="/img/icon/social/telegram.svg" />
                     </a>
                   </li>
