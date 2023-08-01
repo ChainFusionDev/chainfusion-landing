@@ -2193,7 +2193,7 @@ export default function Home() {
                     To confirm bridge transfers, validators use distributed key.
                     During distributed key generation process validators come up with individual secret key shares,
                     which later allows them to create signatures from mutual account. No one has access to full private key,
-                    from which signatures are created.<br/>This makes ChainFusion protocol decentralized.
+                    from which signatures are created.<br />This makes ChainFusion protocol decentralized.
                   </p>
                   <p>
                     Validators constantly monitor bridge transactions on all supported blockchains. Once they see a transfer event on source chain,
@@ -2219,6 +2219,53 @@ export default function Home() {
                   draggable="false"
                   alt="How Bridge Works"
                 />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="team" className="team pt-0">
+          <div className="container">
+            <div className="title">Our Team</div>
+            <div className="bottom-line"></div>
+            <div className="text-center">
+              <div className="row mb-lg-5">
+                <div className="col-lg"></div>
+                <div className="col-lg mb-4 mb-lg-0">
+                  <img className="team-avatar" src="/img/avatars/serhii-varakuta.png" alt="" />
+                  <p className="team-name">Serhii Varakuta</p>
+                  <p className="team-title">Fouder, CEO</p>
+                  <p className="team-subtitle">7 Years in Development<br/>Blockchain Developer, CTO</p>
+                </div>
+                <div className="col-lg mb-4 mb-lg-0">
+                  <img className="team-avatar" src="/img/avatars/armen-arakelian.png" alt="" />
+                  <p className="team-name">Armen Arakelian</p>
+                  <p className="team-title">Co-Founder, CBDO</p>
+                  <p className="team-subtitle">6 Years in Blockchain<br/>Developer, Solution Architect, BD</p>
+                </div>
+                <div className="col-lg"></div>
+              </div>
+              <div className="row">
+                <div className="col-lg mb-4 mb-lg-0">
+                  <img className="team-avatar" src="/img/avatars/serhii-makohon.png" alt="" />
+                  <p className="team-name">Serhii Makohon</p>
+                  <p className="team-title">Software Engineer</p>
+                </div>
+                <div className="col-lg mb-4 mb-lg-0">
+                  <img className="team-avatar" src="/img/avatars/viktor-hladii.png" alt="" />
+                  <p className="team-name">Viktor Hladii</p>
+                  <p className="team-title">Software Engineer</p>
+                </div>
+                <div className="col-lg mb-4 mb-lg-0">
+                  <img className="team-avatar" src="/img/avatars/yurii-melnychuk.png" alt="" />
+                  <p className="team-name">Yurii Melnychuk</p>
+                  <p className="team-title">Software Engineer</p>
+                </div>
+                <div className="col-lg mb-4 mb-lg-0">
+                  <img className="team-avatar" src="/img/avatars/roman-polishchuk.png" alt="" />
+                  <p className="team-name">Roman Polishchuk</p>
+                  <p className="team-title">UI/UX Designer</p>
+                </div>
               </div>
             </div>
           </div>

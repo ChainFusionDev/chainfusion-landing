@@ -701,7 +701,41 @@ section {
   margin-bottom: 20px;
 }
 
-/* 7 - Having Any Questions? */
+/* 7 - Our Team */
+
+.team-avatar {
+  width: 125px;
+  height: 125px;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.team-name {
+  font-size: 18pt;
+  font-weight: bold;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.team-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: var(--two-gray);
+}
+
+.team-subtitle {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: var(--two-gray);
+}
+
+.team .col {
+  padding: 0;
+}
+
+/* 8 - Having Any Questions? */
 
 .blockquestions {
   background-color: var(--blue);
@@ -739,7 +773,7 @@ section {
   padding: 15px 50px;
 }
 
-/* 8 - Footer */
+/* 9 - Footer */
 
 footer {
   padding-top: 80px;
