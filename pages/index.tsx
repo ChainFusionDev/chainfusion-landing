@@ -2232,13 +2232,13 @@ export default function Home() {
               <div className="row mb-lg-5">
                 <div className="col-lg"></div>
                 <div className="col-lg mb-4 mb-lg-0">
-                  <img className="team-avatar" src="/img/avatars/serhii-varakuta.png" alt="" />
+                  <img className="team-avatar" src="/img/avatars/1.png" alt="" />
                   <p className="team-name">Serhii Varakuta</p>
                   <p className="team-title">Fouder, CEO</p>
                   <p className="team-subtitle">7 Years in Development<br/>Blockchain Developer, CTO</p>
                 </div>
                 <div className="col-lg mb-4 mb-lg-0">
-                  <img className="team-avatar" src="/img/avatars/armen-arakelian.png" alt="" />
+                  <img className="team-avatar" src="/img/avatars/2.png" alt="" />
                   <p className="team-name">Armen Arakelian</p>
                   <p className="team-title">Co-Founder, CBDO</p>
                   <p className="team-subtitle">6 Years in Blockchain<br/>Developer, Solution Architect, BD</p>
@@ -2247,22 +2247,22 @@ export default function Home() {
               </div>
               <div className="row">
                 <div className="col-lg mb-4 mb-lg-0">
-                  <img className="team-avatar" src="/img/avatars/serhii-makohon.png" alt="" />
+                  <img className="team-avatar" src="/img/avatars/3.png" alt="" />
                   <p className="team-name">Serhii Makohon</p>
                   <p className="team-title">Software Engineer</p>
                 </div>
                 <div className="col-lg mb-4 mb-lg-0">
-                  <img className="team-avatar" src="/img/avatars/viktor-hladii.png" alt="" />
+                  <img className="team-avatar" src="/img/avatars/4.png" alt="" />
                   <p className="team-name">Viktor Hladii</p>
                   <p className="team-title">Software Engineer</p>
                 </div>
                 <div className="col-lg mb-4 mb-lg-0">
-                  <img className="team-avatar" src="/img/avatars/yurii-melnychuk.png" alt="" />
+                  <img className="team-avatar" src="/img/avatars/5.png" alt="" />
                   <p className="team-name">Yurii Melnychuk</p>
                   <p className="team-title">Software Engineer</p>
                 </div>
                 <div className="col-lg mb-4 mb-lg-0">
-                  <img className="team-avatar" src="/img/avatars/roman-polishchuk.png" alt="" />
+                  <img className="team-avatar" src="/img/avatars/6.png" alt="" />
                   <p className="team-name">Roman Polishchuk</p>
                   <p className="team-title">UI/UX Designer</p>
                 </div>
